@@ -15,21 +15,21 @@ onMounted(() => {
 <template>
   <section>
     <div class="setting-button">
-      <button @click="counterStore.changeFontSize('small')">
+      <button @click="settingStore.changeFontSize('small')">
         change FontSize to small
       </button>
-      <button @click="counterStore.changeFontSize('medium')">
+      <button @click="settingStore.changeFontSize('medium')">
         change FontSize to medium
       </button>
-      <button @click="counterStore.changeFontSize('large')">
+      <button @click="settingStore.changeFontSize('large')">
         change FontSize to large
       </button>
     </div>
     <div class="setting-button">
-      <button @click="counterStore.changeTheme('light')">
+      <button @click="settingStore.changeTheme('light')">
         change Theme to light
       </button>
-      <button @click="counterStore.changeTheme('dark')">
+      <button @click="settingStore.changeTheme('dark')">
         change Theme to dark
       </button>
     </div>
